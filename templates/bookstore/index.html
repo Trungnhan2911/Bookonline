@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><h1>quản lý sách</h1>
     <form method="post" action="{% url 'timsach' %}">
         {% csrf_token %}
         Tên sách <input type="text" name="ten" id="ten"> <button type="submit"  name="Tìm">Tìm sách</button> 
